@@ -1,0 +1,155 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/cloudflare/cfssl/auth",
+			"repository": "https://github.com/cloudflare/cfssl",
+			"revision": "d56224bb8001b7659436ba4852f4870addf9a6d2",
+			"branch": "master",
+			"path": "/auth"
+		},
+		{
+			"importpath": "github.com/cloudflare/cfssl/config",
+			"repository": "https://github.com/cloudflare/cfssl",
+			"revision": "d56224bb8001b7659436ba4852f4870addf9a6d2",
+			"branch": "master",
+			"path": "/config"
+		},
+		{
+			"importpath": "github.com/cloudflare/cfssl/crypto/pkcs7",
+			"repository": "https://github.com/cloudflare/cfssl",
+			"revision": "d56224bb8001b7659436ba4852f4870addf9a6d2",
+			"branch": "master",
+			"path": "/crypto/pkcs7"
+		},
+		{
+			"importpath": "github.com/cloudflare/cfssl/csr",
+			"repository": "https://github.com/cloudflare/cfssl",
+			"revision": "d56224bb8001b7659436ba4852f4870addf9a6d2",
+			"branch": "master",
+			"path": "/csr"
+		},
+		{
+			"importpath": "github.com/cloudflare/cfssl/errors",
+			"repository": "https://github.com/cloudflare/cfssl",
+			"revision": "d56224bb8001b7659436ba4852f4870addf9a6d2",
+			"branch": "master",
+			"path": "/errors"
+		},
+		{
+			"importpath": "github.com/cloudflare/cfssl/helpers",
+			"repository": "https://github.com/cloudflare/cfssl",
+			"revision": "d56224bb8001b7659436ba4852f4870addf9a6d2",
+			"branch": "master",
+			"path": "/helpers"
+		},
+		{
+			"importpath": "github.com/cloudflare/cfssl/log",
+			"repository": "https://github.com/cloudflare/cfssl",
+			"revision": "d56224bb8001b7659436ba4852f4870addf9a6d2",
+			"branch": "master",
+			"path": "/log"
+		},
+		{
+			"importpath": "github.com/cloudflare/cfssl/ocsp/config",
+			"repository": "https://github.com/cloudflare/cfssl",
+			"revision": "d56224bb8001b7659436ba4852f4870addf9a6d2",
+			"branch": "master",
+			"path": "/ocsp/config"
+		},
+		{
+			"importpath": "github.com/cloudflare/cfssl/revoke",
+			"repository": "https://github.com/cloudflare/cfssl",
+			"revision": "d56224bb8001b7659436ba4852f4870addf9a6d2",
+			"branch": "master",
+			"path": "/revoke"
+		},
+		{
+			"importpath": "github.com/kisom/goutils/assert",
+			"repository": "https://github.com/kisom/goutils",
+			"revision": "fb87692b5525ec1c1f19dda407e56f610509d473",
+			"branch": "master",
+			"path": "/assert"
+		},
+		{
+			"importpath": "github.com/kisom/goutils/die",
+			"repository": "https://github.com/kisom/goutils",
+			"revision": "fb87692b5525ec1c1f19dda407e56f610509d473",
+			"branch": "master",
+			"path": "/die"
+		},
+		{
+			"importpath": "github.com/kisom/goutils/lib",
+			"repository": "https://github.com/kisom/goutils",
+			"revision": "fb87692b5525ec1c1f19dda407e56f610509d473",
+			"branch": "master",
+			"path": "/lib"
+		},
+		{
+			"importpath": "github.com/kisom/goutils/logging",
+			"repository": "https://github.com/kisom/goutils",
+			"revision": "fb87692b5525ec1c1f19dda407e56f610509d473",
+			"branch": "master",
+			"path": "/logging"
+		},
+		{
+			"importpath": "github.com/kr/fs",
+			"repository": "https://github.com/kr/fs",
+			"revision": "2788f0dbd16903de03cb8186e5c7d97b69ad387b",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/kr/pty",
+			"repository": "https://github.com/kr/pty",
+			"revision": "f7ee69f31298ecbe5d2b349c711e2547a617d398",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/kr/text",
+			"repository": "https://github.com/kr/text",
+			"revision": "bb797dc4fb8320488f47bf11de07a733d7233e1f",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/pkg/sftp",
+			"repository": "https://github.com/pkg/sftp",
+			"revision": "e84cc8c755ca39b7b64f510fe1fffc1b51f210a5",
+			"branch": "master"
+		},
+		{
+			"importpath": "golang.org/x/crypto/curve25519",
+			"repository": "https://go.googlesource.com/crypto",
+			"revision": "285fb2ed20d1dc450fc743a1b3ff7c36bef372b9",
+			"branch": "master",
+			"path": "/curve25519"
+		},
+		{
+			"importpath": "golang.org/x/crypto/ocsp",
+			"repository": "https://go.googlesource.com/crypto",
+			"revision": "285fb2ed20d1dc450fc743a1b3ff7c36bef372b9",
+			"branch": "master",
+			"path": "/ocsp"
+		},
+		{
+			"importpath": "golang.org/x/crypto/pkcs12",
+			"repository": "https://go.googlesource.com/crypto",
+			"revision": "285fb2ed20d1dc450fc743a1b3ff7c36bef372b9",
+			"branch": "master",
+			"path": "/pkcs12"
+		},
+		{
+			"importpath": "golang.org/x/crypto/ssh",
+			"repository": "https://go.googlesource.com/crypto",
+			"revision": "285fb2ed20d1dc450fc743a1b3ff7c36bef372b9",
+			"branch": "master",
+			"path": "/ssh"
+		},
+		{
+			"importpath": "golang.org/x/sys/unix",
+			"repository": "https://go.googlesource.com/sys",
+			"revision": "c8bc69bc2db9c57ccf979550bc69655df5039a8a",
+			"branch": "master",
+			"path": "/unix"
+		}
+	]
+}
