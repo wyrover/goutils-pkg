@@ -26,3 +26,5 @@ The tools provided are under src/cmd:
 + tlskeypair: Check whether a TLS certificate and key file match.
 
 This is licensed under the MIT license.
+
+[1] https://github.com/kisom/goutils/
