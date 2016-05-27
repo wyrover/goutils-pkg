@@ -111,6 +111,12 @@
 			"branch": "master"
 		},
 		{
+			"importpath": "github.com/pkg/errors",
+			"repository": "https://github.com/pkg/errors",
+			"revision": "431554f80b8ecf5058547f6c65b87fad81d90b03",
+			"branch": "master"
+		},
+		{
 			"importpath": "github.com/pkg/sftp",
 			"repository": "https://github.com/pkg/sftp",
 			"revision": "dfb5f84e82365817319e43a24df2caab12ea0d10",
@@ -122,6 +128,13 @@
 			"revision": "5bcd134fee4dd1475da17714aac19c0aa0142e2f",
 			"branch": "master",
 			"path": "/curve25519"
+		},
+		{
+			"importpath": "golang.org/x/crypto/ed25519",
+			"repository": "https://go.googlesource.com/crypto",
+			"revision": "5bcd134fee4dd1475da17714aac19c0aa0142e2f",
+			"branch": "master",
+			"path": "/ed25519"
 		},
 		{
 			"importpath": "golang.org/x/crypto/ocsp",
