@@ -79,6 +79,13 @@
 			"path": "/die"
 		},
 		{
+			"importpath": "github.com/kisom/goutils/fileutil",
+			"repository": "https://github.com/kisom/goutils",
+			"revision": "e8045e0b1f70fd60137991f466c3c736d30a336d",
+			"branch": "master",
+			"path": "/fileutil"
+		},
+		{
 			"importpath": "github.com/kisom/goutils/lib",
 			"repository": "https://github.com/kisom/goutils",
 			"revision": "4720196aaa67f9cf29ff277a66b56c38a0c7d753",
