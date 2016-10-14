@@ -1,3 +1,5 @@
+PREFIX ?=	$(HOME)
+
 all:
 	gb build
 
@@ -6,3 +8,8 @@ clean:
 
 test:
 	gb test
+
+install: all
+	cp bin/* $(PREFIX)/bin/
+
+.PHONY: all clean test install
