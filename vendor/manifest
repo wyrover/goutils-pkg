@@ -120,13 +120,13 @@
 		{
 			"importpath": "github.com/pkg/errors",
 			"repository": "https://github.com/pkg/errors",
-			"revision": "a2d6902c6d2a2f194eb3fb474981ab7867c81505",
+			"revision": "248dadf4e9068a0b3e79f02ed0a610d935de5302",
 			"branch": "master"
 		},
 		{
 			"importpath": "github.com/pkg/sftp",
 			"repository": "https://github.com/pkg/sftp",
-			"revision": "57fcf4a640a942eb05181f929601f8f4409eda3e",
+			"revision": "4d0e916071f68db74f8a73926335f809396d6b42",
 			"branch": "master"
 		},
 		{
