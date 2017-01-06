@@ -8,6 +8,8 @@ The tools provided are under src/cmd:
 
 + certchain: Display the certificate chain from a TLS connection.
 + certdump: Dump certificate information.
++ certexpiry: Print a list of certificate subjects and expiry times
+  or warn about certificates expiring within a certain window.
 + certverify: Verify a TLS X.509 certificate, optionally printing the
   time to expiry and checking for revocations.
 + clustersh: Run commands or transfer files across multiple servers
