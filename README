@@ -23,7 +23,8 @@ The tools provided are under src/cmd:
 + showimp: List the external (e.g. non-stdlib and outside the current
   working directory) imports for a Go file.
 + readchain: Print the common name for the certificates in a bundle.
-+ showimp Display the external imports in a package.
++ showimp: Display the external imports in a package.
++ ski: print SKI for certificates, certificate requests, and private keys.
 + stealchain: Dump the verified chain from a TLS connection.
 + tlskeypair: Check whether a TLS certificate and key file match.
 
