@@ -88,7 +88,7 @@
 		{
 			"importpath": "github.com/kisom/goutils/lib",
 			"repository": "https://github.com/kisom/goutils",
-			"revision": "4720196aaa67f9cf29ff277a66b56c38a0c7d753",
+			"revision": "d42c1fa1c529ea0ee78eb2022b60d3f30eaada35",
 			"branch": "master",
 			"path": "/lib"
 		},
