@@ -6,6 +6,7 @@ working (sans, perhaps, any bugs) version of the tools.
 
 The tools provided are under src/cmd:
 
++ atping: Automated TCP ping, meant for putting in cronjobs.
 + certchain: Display the certificate chain from a TLS connection.
 + certdump: Dump certificate information.
 + certexpiry: Print a list of certificate subjects and expiry times
@@ -14,6 +15,7 @@ The tools provided are under src/cmd:
   time to expiry and checking for revocations.
 + clustersh: Run commands or transfer files across multiple servers
   via SSH.
++ cruntar: Untar an archive with hard links, copying instead of linking.
 + csrpubdump: Dump the public key from an X.509 certificate request.
 + fragment: Print a fragment of a file.
 + jlp: JSON linter: prettifier.
@@ -23,11 +25,12 @@ The tools provided are under src/cmd:
 + showimp: List the external (e.g. non-stdlib and outside the current
   working directory) imports for a Go file.
 + readchain: Print the common name for the certificates in a bundle.
-+ showimp: Display the external imports in a package.
 + ski: print SKI for certificates, certificate requests, and private keys.
 + stealchain: Dump the verified chain from a TLS connection.
 + subjhash: Print or match subject info from a certificate.
 + tlskeypair: Check whether a TLS certificate and key file match.
++ utc: Convert times to UTC.
++ yamll: YAML linter.
 
 This is licensed under the MIT license.
 
