@@ -1,15 +1,16 @@
-PREFIX ?=	$(HOME)
-
 all:
-	gb build
+	dep ensure -v && go build -x cmd/...
 
 clean:
-	rm -rf bin pkg
+	go clean -x
 
 test:
-	gb test
+	go test -x cmd/...
 
 install: all
-	cp bin/* $(PREFIX)/bin/
+	go install -x cmd/...
+
+uninstall: clean
+	go clean -x -i cmd/...
 
 .PHONY: all clean test install

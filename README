@@ -4,7 +4,7 @@ This is a snapshot of the tools from goutils[1] along with vendored
 dependencies to facilitate packaging. This repo will always have a
 working (sans, perhaps, any bugs) version of the tools.
 
-The tools provided are under src/cmd:
+The tools provided are under cmd:
 
 + atping: Automated TCP ping, meant for putting in cronjobs.
 + certchain: Display the certificate chain from a TLS connection.
